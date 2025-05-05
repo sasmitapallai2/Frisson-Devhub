@@ -1,0 +1,213 @@
+  body{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  
+  background-color: #000;
+  color: white;
+  overflow: hidden;
+}
+.yellow{
+  height: 40px;
+  width: 80px;
+}
+.main{
+  display: flex;
+  height: 100vh;
+}
+.main-content{
+  background-image: linear-gradient(rgb(128, 128, 226),white);
+  width: 72vw;
+  border-radius: 1rem;
+  margin: 5px;
+  height:  31rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person{
+  height: 60px;
+  width: 60px;
+}
+.emoji{
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 5rem;
+}
+.sidebar{
+  background-color: #fff;
+  border-radius: 1rem;
+  flex: 1;
+  margin: 5px;
+  height:  34rem;
+  color: black;
+  padding: 10px 10px 10px 20px;
+} 
+
+.search{
+  border: 1px solid black;
+  height: 1rem;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+
+}
+input{
+  border: none;
+  margin-left:10px ;
+  font-size:15px ;
+  
+}
+.contributors{
+  padding: 5px;
+  border: 2px solid black;
+}
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name .name-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.name .circle{
+  background-color: rgb(235, 150, 150);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+}
+.name .voice{
+  justify-content: flex-end;
+  margin-right: 10px;
+ 
+}
+.name .voice i{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.member{
+ border-bottom:2px solid black ;
+}
+
+.emojis{
+  background-color: #d8c9c91e;
+ font-size: 20px;
+  padding: 6px 6px;
+  width: 400px;
+  
+  border-radius:30px ;
+  justify-content: center;
+}
+.all-icons{
+  display: flex;
+}
+.emoji-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all-icons{
+  font-size: 20px;
+}
+.eclipse{
+  margin-left: 40px;
+}
+.oval{
+  background-color: rgb(235, 150, 150);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+}
+
+.voice-icon{
+  background-color: #706c6c;
+  border-radius: 20%;
+  height: 35px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+
+}
+.call{
+  background-color: red;
+  border-radius: 30px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+
+}
+.dot{
+  background-color: #2c2a2a;
+  border-radius: 30px;
+  padding: 10px 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+ 
+
+  
+}
+.emoji{
+  display: flex;
+  justify-content: center;
+}
+.round{
+  background-color: #2c2a2a;
+  border-radius: 30px;
+  padding: 10px 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+
+}
+.smile{
+  background-color: #8498dd;
+  border-radius: 10px;
+  padding: 10px 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+
+}
+.cc{
+  font-size: 10px;
+  
+}
+.video{
+  background-color: rgb(248, 180, 180);
+}
+.arrow{
+  background-color: rgb(94, 5, 5);
+}
+ 
+.timer{
+  display: flex;
+  margin-top: 35px;
+
+  
+} 
+ 
