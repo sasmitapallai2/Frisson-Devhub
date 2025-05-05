@@ -164,15 +164,15 @@ function charAt(str, index) {
 }
 
 function charCodeAt(str, index) {
-  // Ensure the index is within bounds
+ 
   if (index < 0 || index >= str.length) return NaN;
 
   const char = str[index];
   let code = 0;
 
-  // Convert character to ASCII using a lookup loop
+  
   for (let i = 0; i <= 127; i++) {
-    // String created from ASCII code
+   
     if (String.fromCharCode(i) === char) {
       code = i;
       break;
