@@ -163,9 +163,23 @@ function charAt(str, index) {
   return str[index];
 }
 
-// 14. charCodeAt
 function charCodeAt(str, index) {
-  return str[index] ? str[index].charCodeAt(0) : NaN;
+ 
+  if (index < 0 || index >= str.length) return NaN;
+
+  const char = str[index];
+  let code = 0;
+
+  
+  for (let i = 0; i <= 127; i++) {
+   
+    if (String.fromCharCode(i) === char) {
+      code = i;
+      break;
+    }
+  }
+
+  return code;
 }
 
 // 15. concat
