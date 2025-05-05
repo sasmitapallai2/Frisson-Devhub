@@ -163,9 +163,23 @@ function charAt(str, index) {
   return str[index];
 }
 
-// 14. charCodeAt
 function charCodeAt(str, index) {
-  return str[index] ? str[index].charCodeAt(0) : NaN;
+  // Ensure the index is within bounds
+  if (index < 0 || index >= str.length) return NaN;
+
+  const char = str[index];
+  let code = 0;
+
+  // Convert character to ASCII using a lookup loop
+  for (let i = 0; i <= 127; i++) {
+    // String created from ASCII code
+    if (String.fromCharCode(i) === char) {
+      code = i;
+      break;
+    }
+  }
+
+  return code;
 }
 
 // 15. concat
