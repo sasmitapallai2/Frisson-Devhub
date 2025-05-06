@@ -19,10 +19,51 @@
   width: 72vw;
   border-radius: 1rem;
   margin: 5px;
-  height:  31rem;
+  height:  30rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+ 
+}
+.person-name{
+  display: flex;
+  align-items: end;
+  color: black;
+}
+.rishabh{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.kapil{
+  background-image: linear-gradient(rgb(110, 16, 16),rgb(216, 25, 25));
+  height: 100px;
+  border-radius: 5px;
+  width: 140px;
+  display: flex;
+  gap: 10px;
+
+}
+.k-circle{
+  background-color: #706c6c;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mini-box{
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 .person{
   height: 60px;
@@ -73,6 +114,12 @@ input{
   justify-content: center;
   align-items: center;
   
+}
+.photo{
+  position: relative;
+  left: 10px;
+  color: black;
+ 
 }
 .name .circle{
   background-color: rgb(235, 150, 150);
@@ -205,9 +252,27 @@ input{
 }
  
 .timer{
-  display: flex;
-  margin-top: 35px;
+ position: fixed;
+ bottom: 0px;
+ left: 0px;
 
   
 } 
  
+@media (max-width:600px) {
+  .sidebar{
+    display: none;
+  }
+  .emoji{
+    display: none;
+  }
+  .kapil{
+    height: 200px;
+    width: 100px;
+  }
+  .main-content{
+    height: 100vh;
+    width: 100vw;
+  }
+  
+}
